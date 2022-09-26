@@ -6,6 +6,9 @@ export class Commande extends Document {
   date!: string;
   prix!: number;
   payer!: boolean;
+  adresse!: string;
+  tel!: number;
+  nom!: string;
 }
 
 export class Produit {

@@ -10,7 +10,10 @@ export const CommandeSchemas = new Schema({
     },
   ],
   prix: Number,
+  tel: Number,
   payer: Boolean,
+  adresse: String,
+  nom: String,
 
   date: { type: Date, default: Date.now() },
 });
